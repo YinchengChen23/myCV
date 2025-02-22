@@ -1,193 +1,74 @@
-<head>
-    <title>Yin-Cheng's CV</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href='assets/css/css.css' rel='stylesheet' type="text/css">
-</head>
-<!-- MAIN CONTAINER -->
-    <body style="background-color:DimGray;">
-      <div id="main_container">
-      <!-- HEADER -->
-      <div id="header">
-        <!-- LOGOTYPE/NAME -->
-        <div class="header_logotype_container">
-          <h1 class="logotype_name">Yin-Cheng <span class="purple">Chen</span></h1>
-          <h2 class="logotype_occupation">Bioinformation and Microbiome</h2>
-        </div>
-        <!-- MAIN MENU -->
-        <div class="header_menu_container">
-          <div class="clear"></div>
-          <ul class="header_menu horizontal_list">
-            <li><a class="no_border purple" href="#">Profile</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#WE">Work Experience</a></li>
-            <li><a href="#Skill">Skills</a></li>
-            <li><a href="#Award">Award</a></li>
-	    <li><a href="#Publication">Publication</a></li>
-	    <li><a href="#Referrer">Referrer</a></li> 
-          </ul>
-        </div>
-      </div>
-      <!-- LEFT COL -->
-      <div id="left_col">
-        <div class="profile_frame">
-          <div class="profile_picture"> 
-          <img src="./images/123.jpg" alt="profile picture">
-          </div>
-        </div>
-        <div class="hello_content">
-          <style>
-            h2.white-text {
-              color : white;
-              }
-          </style>
-          <h2  class="purple" >Hello world!</h2>
-          <p>I enjoy involving in analytical procession all the time.</p>
-        </div>
-        <div class="contact_details_content">
-          <h2>Contact Details</h2>
-          <p class="purple">Phone:</p>
-          <p>+886 928 547 741</p>
-          <p class="purple">Email:</p>
-          <p>yin.cheng.23@gmail.com</p>
-        </div>
-        <a href="mailto:yin.cheng.23@gmail.com" class="send_message_button">
-          <span class="cut1"></span>
-          <span class="cut2"></span>
-          <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
-        </a>
-      </div>
-      <!-- PROFILE CONTENT -->
-      <div id="content_container">				
-        <div class="block">
-          <h2>Profile</h2>
-          <blockquote class="profile_quote">
-            <p>"In the fields of observation, chance favours only the prepared mind."</p>
-            <p>Louis Pasteur.</p>
-            <span class="entypo-quote"></span>
-          </blockquote>
+---
+layout: page
+tagline:
+---
 
-          <style>
-            p.profile_text {
-              line-height: 24px;
-              }
-          </style>
+{% for post in paginator.posts %}
 
-          <p class="profile_text">I ever consider myself gauche to be a programmer. I am impatient with waiting several hours for handling pipette. 
-            Because of it, I divert my attention to data analyses. In this way, I could get the analytical result and modified the procession in time. 
-            I am curious to view in hundreds of thousands of bacteria maintaining ecological system from the complex interaction. 
-            I wish I could identify significant ecological relationships in compositional data.
-           </p>
-        </div>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
-        </div>
-        <div class="block">
-          <h2 id="Education" class="heading">Education</h2>
-          <h5><b>M.S. in Institute of Tropical Plant Sciences and Microbiology</b>, 2018-2020</h5>
-          <p><i>National Cheng Kung University. GPA 3.99/4.3</i></p>
-          <h5><b>B.S in Department of BioAgricultural Science</b>, 2013-2017</h5>
-          <p><i>National Chiayi University. GPA 3.13</i></p>
-            <div class="clear"></div>
-        </div>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
-        </div>
-        <div class="last block">
-          <h2 id="WE" class="heading">Work Experience</h2>
-	  <h4><b>Research assistant</b> @Dr. Chen-Ching Lin’s laboratory <br/>National Yang Ming Chiao Tung University, 2022-Present.</h4>
-          <h5><b>Project</b> : Feature engineering in sparse data.</h5>
-		
-		
-          <h4><b>Research assistant</b> @Molecular Medicine Research Center <br/>Chang Gung University, 2020-2022.</h4>
-          <h5><b>Project 1</b> : Global genome diversity in <i>Mycoplasma pneumoniae</i>.</h5>
-          <ul>
-            <li>Identify the evidence of evolved adaptation in genome.</li>
-            <li>Use Machine learning approaches to identify genetic signatures of antibiotic resistance.</li>
-          </ul>
-          <h5><b>Project 2</b> : Oral microbiota analysis.</h5>
-          <ul>
-            <li>Find the bacterial indicator of Oral squamous cell carcinoma (OSCC).</li>
-            <li>Use topology of inferred network to predict the stages of cancer.</li>
-	    <li>Integrated microbiota and metabolite in <i>Mycoplasma pneumoniae</i> infaction.</li>
-          </ul>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-		</div>
-          <h4><b>Graduate Student Researcher</b> @Dr. Chao-Li Huang’s laboratory <br/>NCKU, 2019-2020.</h4>
-          <h5><b>Project 1</b> : Establishing a metagenomics-assisted approach for the isolation of <br/>&emsp;&emsp;&emsp;&emsp;&ensp;sulfur-oxidizing bacteria (Thesis)</h5>
-          <ul>
-            <li>Use 16S rRNA amplicon data to predict digestion pattern for bacterial identification.</li>
-          </ul>
+<article class="home">
 
-          <h5><b>Project 2</b> : Fungal community succession through tea fermentation process.</h5>
-          <ul>
-            <li>Use the Markov chain clustering to explain the different strength of association within <br/>&ensp;fungal community between black tea and green tea process based on ITS amplicon data.</li>
-            <li>Merge the ITS1, ITS2 and LSU amplicon data from NCBI taxonomy database.</li>
-          </ul>
-        </div>		  
-	<div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
-        </div>
-        <div class="block">
-            <h2 id="Skill" class="heading">Skills</h2>
-            <h5><b>Experiment</b>: Bacteria culture, Plant tissue culture, Cloning, Western blot<br/>&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; and Confocal microscopy.</h5>
-            <h5><b>Programming</b>: R, Python, shell and a little bit of C++.</h5>
-            <h5><b>Languages</b>: Mandarin Chinese, Taiwanese and English. </h5>
-              <div class="clear"></div>
-        </div>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
-        </div>
-        <div class="block">
-          <h2 id="Award" class="heading">Award</h2>
-          <h5><b>Oral presentation aware</b>, Multiomics and precision medicine joint conference, 2019.</h5>
-        </div>
-	<div class="clear"></div>
-	<div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>	  
-        </div>
-	<div class="block">
-          <h2 id="Publication" class="heading">Publication</h2>
-          <p> Hsieh, Y. C., Wu, J. W., Chen, Y. Y., Quyen, T. L. T., Liao, W. C., Li, S. W., <b>Chen, Y. C.</b> & Pan, Y. J. (2021).<br><b>An Outbreak of tet (X6)-Carrying Tigecycline-Resistant <i>Acinetobacter baumannii</i> Isolates with a New Capsular Type at a Hospital in Taiwan. </b> <i>Antibiotics</i>, 10(10), 1239.</p>
-	  <p> Hsieh, Y. C., Li, S. W., Chen, Y. Y., Kuo, C. C., <b>Chen, Y. C.</b>, Chang, I. Y. F., ... & Liao, W. C. (2022).<br><b>Global Genome Diversity and Recombination in <i>Mycoplasma pneumoniae</i>. </b> <i>Emerging infectious diseases</i>, 28(1), 111.</p>
-        </div>
-	<div class="clear"></div>
-	<div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>	  
-        </div>
-        <div class="clear"></div>
-      </div>
+  <span class="post-date">
+    {% assign d = post.date | date: "%d" | plus:'0' %}
+    {{ post.date | date: "%B" }}
+    {% case d %}
+    {% when 1 or 21 or 31 %}{{ d }}st,
+    {% when 2 or 22 %}{{ d }}nd,
+    {% when 3 or 23 %}{{ d }}rd,
+    {% else %}{{ d }}th,
+    {% endcase %}
+    {{ post.date | date: "%Y" }}
+  </span>
 
-      </div>
-      <div class="clear"></div>
-      <!-- FOOTER -->
-      <div id="footer">
-        <p class="footer_name">Yin-Cheng Chen CV 2021</p>
-      </div>
-</div>
-</body>
+  <h2>
+    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <div>
+    {% if post.fullview %}
+    {{ post.content }}
+    {% else %}
+    {% if post.shortinfo %}
+    {{ post.shortinfo }}
+    {% elsif post.description %}
+    {{ post.description }}
+    {% else %}
+    {{ post.excerpt }}
+    {% endif %}
+    {% endif %}
+  </div>
+
+</article>
+{% endfor %}
+<hr/>
+
+<ul class="pager"> 
+
+  {% if paginator.previous_page %}
+  <li class="previous">
+    {% if paginator.previous_page == 1 %}
+    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
+    {% else %}
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
+    {% endif %}
+  </li>
+  {% else %}
+  <li class="previous disabled">
+    <a>&larr; Newer</a>
+  </li>
+  {% endif %}
+  
+  <li>
+    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  </li>
+
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
+  </li>
+  {% else %}
+  <li class="next disabled">
+    <a>Older &rarr;</a>        
+  </li>
+  {% endif %}
+
+</ul>
