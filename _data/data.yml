@@ -111,52 +111,61 @@ projects:
   title: Software
   assignments:
   - title: PreLect
-    link: "#"
     tagline: "Feature Engineering in Sparse Matrices"
+    links:
+        - text: PreLect
+          url: https://github.com/YinchengChen23/PreLect
+          icon: /assets/images/python.png
+        - text: PreLectR
+          url: https://github.com/YinchengChen23/PreLectR
+          icon: /assets/images/r_icon.png
 
   - title: vDiveR
-    link: "#"
     tagline: "A graphical user interface (GUI)-based web application hosted on R Shiny for the visualization of various diversity dynamics."
+    links:
+        - text: vDiveR
+          url: https://github.com/pendy05/vDiveR_RShiny
+          icon: assets/images/github.png
+        - text: vDiveR
+          url: https://cran.r-project.org/web/packages/vDiveR/index.html
+          icon: assets/images/r_icon.png
 
+honors:
+  title: Award
+  info:
+  - name: Oral presentation aware
+    time: 2019
+    company: Multiomics and precision medicine joint conference, Taiwan
+    
+    
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+  - person: Dr. Chen Ching Lin
+    email: chenching.lin@nycu.edu.tw
+    role: Professor
+    department : Institute of Biomedical Informatics
+    organization: National Yang Ming Chiao Tung University, Taipei, Taiwan
 
-      He is a great employee!
+  - person: Dr. Chao-Li Huang
+    email: Clhuang65535@gmail.com
+    role: Associate professor
+    department : Institute of Tropical Plant Sciences and Microbiology
+    organization: National Cheng Kung University Tainan, Taiwan
+
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
+  - name: Python
     level: 98%
 
-  - name: Javascript & jQuery
+  - name: R & Rcpp
     level: 98%
 
-  - name: Angular
-    level: 98%
+  - name: C++
+    level: 20%
 
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
+  - name: Sketch & Calligraphy
     level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

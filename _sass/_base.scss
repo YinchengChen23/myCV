@@ -174,7 +174,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
@@ -228,18 +228,30 @@ p {
   }
   .projects-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
   }
+    
+  .project-links {
+    display: flex;       /* 使用 flexbox 實現並排 */
+    gap: 30px;           /* 連結之間的間距 */
+    flex-wrap: wrap;     /* 如果空間不夠，換行 */
+  }
+  .link-icon {
+  width: 32px;        /* 調整圖標大小 */
+  height: 32px;
+  margin-right: 5px;
+  }
+    
   .oss-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
   }
 
@@ -262,13 +274,55 @@ p {
     
   .publications-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
   }
 }
+
+
+.recommendations-container {
+  display: flex;          /* 使用 Flexbox */
+  flex-wrap: wrap;        /* 允許換行 */
+  gap: 20px;              /* 項目之間的間距 */
+  justify-content: space-between; /* 項目平均分佈 */
+}
+
+.recommendation-item {
+  flex: 1 1 calc(50% - 10px); /* 每個項目占據 50% 寬度，減去間距 */
+  min-width: 300px;           /* 最小寬度，防止過窄 */
+  box-sizing: border-box;     /* 包含內邊距和邊框 */
+  margin-bottom: 20px;        /* 下方間距 */
+}
+
+.recommendation-item .details {
+  margin-bottom: 15px;        /* 推薦內容與信息間距 */
+}
+
+.recommendation-info {
+  text-align: left;           /* 左對齊 */
+}
+
+.recommendation-person {
+  font-size: 1.1em;           /* 人名稍大 */
+  margin-bottom: 5px;
+}
+
+.recommendation-info p {
+  margin: 0 0 5px 0;          /* 每個段落間距 */
+}
+
+.recommendation-info a {
+  color: #007bff;             /* 郵件連結顏色 */
+  text-decoration: none;
+}
+
+.recommendation-info a:hover {
+  text-decoration: underline;
+}
+
 
 .skillset {
   .item {
