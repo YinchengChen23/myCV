@@ -115,10 +115,10 @@ projects:
     links:
         - text: PreLect
           url: https://github.com/YinchengChen23/PreLect
-          icon: /assets/images/python.png
+          icon: assets/images/python.png
         - text: PreLectR
           url: https://github.com/YinchengChen23/PreLectR
-          icon: /assets/images/r_icon.png
+          icon: assets/images/r_icon.png
 
   - title: vDiveR
     tagline: "A graphical user interface (GUI)-based web application hosted on R Shiny for the visualization of various diversity dynamics."
