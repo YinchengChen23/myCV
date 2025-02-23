@@ -2,10 +2,8 @@
 
 # Site Settings
 title: "YinCheng Chen's Resume"
-#url: 'https://yinchengchen23.github.io'
-#baseurl: '/myCV' 
-#change it according to your repository name
-# disabling since we are using a custom domain
+url: 'https://yinchengchen23.github.io'
+baseurl: '/myCV/' 
 
 
 description: A beautiful Jekyll theme for creating resume
