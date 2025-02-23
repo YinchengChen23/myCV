@@ -4,12 +4,12 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: YinCheng Chen
-  tagline: Bioinformatics
+  tagline: Computational biology
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -60,91 +60,63 @@ experiences:
   - role: Research Assistant
     time: 2022 - Present
     company: <b>National Yang Ming Chiao Tung University</b>, Taipei, Taiwan<br>Advisor Dr. Chen Ching Lin
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+    
   - role: Research Assistant
     time: 2020 - 2022
     company: <b>Chang Gung University</b>, Taoyuan, Taiwan<br>Molecular Medicine Research Center
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
   papers:
-  - title: PreLect . Prevalence leveraged consistent feature selection decodes microbial signatures across cohorts
-    link: "#"
-    authors: Chen, Y. C., Su, Y. Y., Chu, T. Y., Wu M. F., Huang, C. C. & Lin, C. C.
-    conference: npj Biofilms Microbiomes, 11(3)., 2025
+  - title: "PreLect : Prevalence leveraged consistent feature selection decodes microbial signatures across cohorts"
+    link: "https://www.nature.com/articles/s41522-024-00598-2"
+    authors: <u>Chen, Y. C.</u>, Su, Y. Y., Chu, T. Y., Wu M. F., Huang, C. C. & Lin, C. C.
+    journal: <i>npj Biofilms Microbiomes</i>, 11(3), 2025
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: "Global genome diversity and recombination in <i>Mycoplasma pneumoniae</i>"
+    link: "https://pubmed.ncbi.nlm.nih.gov/34932441/"
+    authors: Hsieh, Y. C., Li, S. W., Chen, Y. Y., Kuo, C. C., <u>Chen, Y. C.</u>, Chang, I. Y. F., ... & Liao, W. C.
+    journal: <i>Emerging infectious diseases</i>, 28(1), 111, 2022
 
-  - title: A syntax directed compiler for Algol 60
+  - title: "An outbreak of tet (X6)-Carrying tigecycline-resistant <i>Acinetobacter baumannii</i> isolates with a new capsular type at a hospital in Taiwan"
+    link: "https://pubmed.ncbi.nlm.nih.gov/34680819/"
+    authors: Hsieh, Y. C., Wu, J. W., Chen, Y. Y., Quyen, T. L. T., Liao, W. C., Li, S. W., <u>Chen, Y. C.</u> & Pan, Y. J. 
+    journal: <i>Antibiotics</i>, 10(10), 1239, 2021
+    
+
+conference:
+  title: Conference Presentations
+  papers:
+  - title: "PreEmbed : interpretable gene tokenization for enhanced single-cell representation"
+    authors: <u>Chen, Y. C.</u>, Lin C. C.
+    journal: Oral presented at <i>the 83rd Annual Meeting of the Japanese Cancer Association</i>, 2024
+    
+  - title: "Deciphering hepatitis B virus clearance genes in hepatocellular carcinoma via semi-supervised learning"
+    authors: Su, Y. Y, <u>Chen, Y. C.</u>, Lin C. C.
+    journal: Poster presented at <i>the 83rd Annual Meeting of the Japanese Cancer Association</i>, 2024
+
+  - title: "Advancing precision oncology with a graph neural network framework for genetic mutation identification"
+    authors: Hsu, Y. T., <u>Chen, Y. C.</u>, Lin C. C.
+    journal: Oral presented at <i>the 83rd Annual Meeting of the Japanese Cancer Association</i>, 2024
+
+  - title: "Adapted LASSO : A novel and robust approach for feature selection in microbiome data"
+    authors: <u>Chen, Y. C.</u>, Lin C. C.
+    journal: Oral presented at <i>the 82rd Annual Meeting of the Japanese Cancer Association</i>, 2023
+    
+  - title: "Three different amplicon unveils the changes of fungal community through tea fermentation process"
+    authors: <u>Chen, Y. C.</u>, Huang C. L.
+    journal: Oral presented at <i>Multiomics and precision medicine joint conference</i>, Taiwan, 2019
+    
+projects:
+  title: Software
+  assignments:
+  - title: PreLect
     link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    tagline: "Feature Engineering in Sparse Matrices"
+
+  - title: vDiveR
+    link: "#"
+    tagline: "A graphical user interface (GUI)-based web application hosted on R Shiny for the visualization of various diversity dynamics."
 
 recommendations:
   title: Recommendations
