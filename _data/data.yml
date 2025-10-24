@@ -143,10 +143,13 @@ projects:
 honors:
   title: Award
   info:
+  - name: Doctoral Dissertation Scholarship, Finalist
+    time: 2025
+    company: National Yang-Ming Chiao Tung University, Taiwan
   - name: Oral presentation aware
     time: 2019
     company: Multiomics and precision medicine joint conference, Taiwan
-    
+
     
 recommendations:
   title: Recommendations
