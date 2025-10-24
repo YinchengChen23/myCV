@@ -68,6 +68,16 @@ experiences:
 publications:
   title: Publications
   papers:
+  - title: "Fungal community succession in the fermentation of black and oolong teas"
+    link: "https://www.sciencedirect.com/science/article/pii/S0023643825013301"
+    authors: <u>Chen, Y. C.</u>, Tran, H. T., Kuan, J. J., Chiang, T. Y., & Huang, C. L.
+    journal: <i>LWT</i>, 235, 2025
+
+  - title: "Respiratory microbiome and metabolome features associate with disease severity and doxycycline treatment requirement in children with macrolide-resistant Mycoplasma pneumoniae-mediated pneumonia"
+    link: "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2025.1537182/full"
+    authors: Liao, W. C., Li, S. W., Hsing, E. W., Chen Y. Y., Chang, Ian, <u>Chen, Y. C.</u>, Yang C., Pan, Y. J.,Hsieh, Y. C.
+    journal: <i>Frontiers in Cellular and Infection Microbiology</i>, 15, 2025
+    
   - title: "PreLect : Prevalence leveraged consistent feature selection decodes microbial signatures across cohorts"
     link: "https://www.nature.com/articles/s41522-024-00598-2"
     authors: <u>Chen, Y. C.</u>, Su, Y. Y., Chu, T. Y., Wu M. F., Huang, C. C. & Lin, C. C.
