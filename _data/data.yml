@@ -141,7 +141,7 @@ projects:
           icon: assets/images/r_icon.png
 
 honors:
-  title: Award
+  title: Award and Grant
   info:
   - name: Graduate research fellowship
     time: 2025
@@ -151,6 +151,9 @@ honors:
     company: NSTC, Taiwan
   - name: Doctoral dissertation scholarship, Finalist
     time: 2025
+    company: National Yang-Ming Chiao Tung University, Taiwan
+  - name: 尹衍樑先生入學優異獎學金
+    time: 2022
     company: National Yang-Ming Chiao Tung University, Taiwan
   - name: Oral presentation aware
     time: 2019
