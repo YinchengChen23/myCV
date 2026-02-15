@@ -57,10 +57,12 @@ certifications:
 experiences:
   title: Experiences
   info:
+  - role: Intern
+    time: 2025 Jun - 2025 Aug
+    company: <b>University Hospital Dresden 'Carl Gustav Carus'</b>, Dresden, Germany<br>Institute for Clinical Genetics, Dr. Diana Le Duc
   - role: Research Assistant
     time: 2022 - Present
     company: <b>National Yang Ming Chiao Tung University</b>, Taipei, Taiwan<br>Advisor Dr. Chen Ching Lin
-    
   - role: Research Assistant
     time: 2020 - 2022
     company: <b>Chang Gung University</b>, Taoyuan, Taiwan<br>Molecular Medicine Research Center
